@@ -1,0 +1,212 @@
+*{
+    margin:center;
+    padding:0;
+    font-family: sans-serif;
+ }
+ body{
+     background-color: black;
+     color:white;
+ }
+ *{
+     box-sizing: border-box;
+ }
+ table{
+     background-color: black;
+     border-color:black ;
+     color: white;
+     empty-cells: hide;
+ }
+ 
+ 
+
+ .education{
+     border: 1px solid black;
+     float: left;
+     width: 50%;
+     text-align: left ;
+ }
+ .Progressbar{
+    border: 1px solid black;
+    float: right;
+    width: 50%;
+    text-align: center ;
+    
+}
+ .pr{
+     display: flex;
+     border-color: white;
+ }
+ .container{
+     margin: o;
+     
+ }
+.rounded{
+    border-radius: 50%;
+    padding: 1px;
+    border: 8px solid transparent;
+    background: transparent;
+
+}
+h1{
+    font-family: sans-serif;
+    height: 15px;
+    font-size: 50px;
+}
+h2{
+    font-family: sans-serif;
+    height: 15px;
+    font-size: x-large;
+    text-align:center;
+}
+
+.contact{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+a{
+   
+    height: 80px;
+    width: 80px;
+    background-color: #f5f5fa;
+    border-radius: 50px;
+    line-height: 110px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+     
+   a i{
+      transition:all 0.5s linear ;
+  }
+  .contact a:hover {
+       transform: translateY(-10px);
+       
+   }
+}.fa-instagram-square{
+    color: #e84393;
+    
+}
+.fa-whatsapp-square{
+    color: green;
+}
+.fa-linkedin{
+    color: #0097e6;
+}
+.fa-facebook{
+    color: blue;
+}a
+.fa-envelope
+{
+    color: rgb(231, 121, 121);
+}
+td{
+    vertical-align: middle;
+}
+tr{
+    vertical-align: middle;
+
+}
+tr:hover{
+    
+    transform: skew(10px);
+}
+.ps {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+  }
+  
+  .ps-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+  .ps1 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-end;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 400px;
+  }
+  
+  .ps1-value {
+    animation: load 6s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+@keyframes load .ps1 {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+  .ps2 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 300px;
+  }
+  
+  .ps2-value {
+    animation: load 9s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+@keyframes load .ps2 {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }
+  .ps3 {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-end;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 200px;
+  }
+  
+  .ps3-value {
+    animation: load 9s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #fff;
+    height: 30px;
+    width: 0;
+}
+@keyframes load .ps3{
+    0% { width: 0; }
+    100% { width: 20%; }
+  }
